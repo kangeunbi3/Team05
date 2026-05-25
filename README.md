@@ -1,7 +1,7 @@
 # Team05
-# 🌞 선크림 리뷰 분석 프로젝트
+# 코로나19 전후 화장품 온라인 쇼핑 분석
 
-올리브영 선크림 리뷰를 분석해 소비자 불만 키워드를 추출하는 프로젝트입니다.
+코로나 전 후 화장품 온라인 쇼핑 거래액 데이터를 비교 분석하여 소비 패턴의 변화를 확인합니다
 
 ## 팀원
 | 이름 | 학번 | 역할 |
@@ -10,8 +10,7 @@
 | 강은비 | 202641102 | 데이터 분석 및 시각화, 발표 |
 
 ## 사용 라이브러리
-- beautifulsoup4, requests, pandas, matplotlib, wordcloud
+- pandas, mataplotlib, seaborn
 
 ## 실행 방법
-pip install -r requirements.txt
-python main.py
+pip install pandas matplotlib seaborn
